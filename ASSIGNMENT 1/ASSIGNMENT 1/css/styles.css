@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#nav-container {
+    background-color: #fff;
+    border-bottom: solid 0.5px darkgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 35px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+
+#img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.header-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.headshot-pic {
+    width: 40vw;
+    border-radius: 15px;
+    outline: auto;
+}
+
+.text-title {
+    padding-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#project1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.pic1-header {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.pic1-settings {
+    width: 40vw;
+}
+
+.pic1-text {
+    padding-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#project2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+}
+
+.pic2-header {
+
+}
+
+.pic2-settings {
+    width: 30vw;
+    
+}
+
+.pic2-text {
+
+}
+
+
